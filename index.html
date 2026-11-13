@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="Portofolio Reno Dwi Pranowo — web developer dan AI enthusiast." />
+    <title>Reno Dwi Pranowo | Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="wrap">
+        <a href="#tentang">Tentang</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#skill">Skill</a>
+        <a href="#perjalanan">Perjalanan</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </nav>
+
+    <header class="wrap hero">
+      <div>
+        <div class="badge"><i>R</i> Available for projects</div>
+        <h1>Halo, saya <em>Reno</em>.</h1>
+        <p class="lead">
+          Lulusan S1 Teknik Informatika Universitas Muhammadiyah Prof. Dr. HAMKA dengan IPK 3,23.
+          Saya tertarik pada pengembangan web, kecerdasan buatan, dan peluang karier di bidang IT maupun F&amp;B.
+        </p>
+        <div class="btns">
+          <a class="btn primary" href="#kontak">Hubungi saya</a>
+          <a class="btn" href="#proyek">Lihat proyek</a>
+        </div>
+      </div>
+
+      <div class="chat" aria-label="Chat tanya-jawab tentang Reno">
+        <div class="chat-heading">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Reno Bot</span>
+        </div>
+
+        <div id="log" class="log" aria-live="polite"></div>
+
+        <div id="chips" class="chips" aria-label="Pertanyaan cepat"></div>
+
+        <form id="f">
+          <input
+            id="q"
+            type="text"
+            placeholder="Tanya tentang Reno..."
+            aria-label="Tulis pertanyaan"
+          />
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </header>
+
+    <div class="band">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat">
+            <b>3,23</b>
+            <span>IPK dari 4,00</span>
+          </div>
+          <div class="stat">
+            <b>3 bln</b>
+            <span>PKL bagian AI</span>
+          </div>
+          <div class="stat">
+            <b>±2 th</b>
+            <span>Kerja di coffee shop</span>
+          </div>
+        </div>
+        <div class="logos">
+          <small>Pernah bekerja di</small>
+          <strong>BPTI UHAMKA</strong>
+          <strong>PT Bagi Kopi Indonesia</strong>
+          <strong>Seckop Coffee</strong>
+          <strong>Mogano Coffee</strong>
+        </div>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <section id="tentang">
+        <h2>Berpengalaman di bidang teknologi dan layanan</h2>
+        <p class="sub">Sedikit cerita tentang saya.</p>
+
+        <div class="about">
+          <div class="about-copy">
+            <p>
+              Saya lulusan S1 Teknik Informatika Universitas Muhammadiyah Prof. Dr. HAMKA dengan
+              IPK 3,23. Saat PKL di BPTI UHAMKA, saya mengembangkan chatbot layanan informasi
+              kampus dari tahap awal menggunakan DialoGPT dan Gemini API. Saya merancang alur
+              percakapan, menguji berbagai skenario pertanyaan, dan menyempurnakan jawaban agar
+              lebih akurat.
+            </p>
+            <p>
+              Di sela kuliah, saya bekerja paruh waktu di beberapa coffee shop selama kurang
+              lebih dua tahun. Pengalaman ini melatih saya bekerja cepat, disiplin mengatur waktu,
+              tetap teliti saat operasional padat, serta membagi waktu antara studi dan pekerjaan.
+              Saat ini saya mencari kesempatan berkarier di bidang Teknologi Informasi maupun
+              Food &amp; Beverage (F&amp;B).
+            </p>
+          </div>
+
+          <div class="about-column">
+            <div class="photo-card">
+              <img class="avatar" src="images/Screenshot 2026-11-14 015252.png" alt="Foto profil Reno" />
+              <p class="photo-caption">Lokasi: Cileungsi, Jawa Barat</p>
+            </div>
+
+            <aside class="side-note">
+              <h3>Focus saya</h3>
+              <p>Pengembangan web, kecerdasan buatan, serta peluang karier di bidang IT dan F&amp;B.</p>
+              <p>Berdomisili di Cileungsi, Jawa Barat.</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyek" class="section-compact">
+        <h2>Proyek unggulan</h2>
+        <p class="sub">Proyek PKL yang juga menjadi skripsi saya.</p>
+
+        <div class="project">
+          <div>
+            <h3>Chatbot Web Cerdas untuk BPTI UHAMKA</h3>
+            <p>
+              Chatbot berbasis web yang menjawab pertanyaan seputar layanan kampus.
+            </p>
+            <ul>
+              <li>Merancang alur percakapan dari awal.</li>
+              <li>Mencoba berbagai skenario pertanyaan, lalu memperbaiki jawaban yang masih kurang tepat.</li>
+              <li>Berdiskusi rutin dengan pembimbing lapangan agar sesuai kebutuhan BPTI.</li>
+            </ul>
+            <ul class="tags">
+              <li>DialoGPT</li>
+              <li>Gemini API</li>
+              <li>Web</li>
+            </ul>
+          </div>
+
+          <div class="flow" aria-label="Alur kerja chatbot">
+            <div class="flow-step">Pertanyaan pengguna</div>
+            <i aria-hidden="true"></i>
+            <div class="flow-step">Antarmuka web</div>
+            <i aria-hidden="true"></i>
+            <div class="flow-step highlight">DialoGPT + Gemini API</div>
+            <i aria-hidden="true"></i>
+            <div class="flow-step">Jawaban seputar layanan BPTI</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill" class="section-compact">
+        <div class="head">
+          <div>
+            <h2>Skill</h2>
+            <p class="sub">Level dasar, dan terus saya asah lewat proyek.</p>
+          </div>
+
+          <div class="arrows">
+            <button type="button" id="prev" aria-label="Sebelumnya">←</button>
+            <button type="button" id="next" aria-label="Berikutnya">→</button>
+          </div>
+        </div>
+
+        <div id="track" class="track">
+          <div class="skill">
+            <h3>Web</h3>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill">
+            <h3>Database</h3>
+            <p>MySQL</p>
+          </div>
+          <div class="skill">
+            <h3>AI &amp; chatbot</h3>
+            <p>DialoGPT, Gemini API, desain alur percakapan</p>
+          </div>
+          <div class="skill">
+            <h3>Perkantoran &amp; desain</h3>
+            <p>Word, PowerPoint, Excel, Canva</p>
+          </div>
+          <div class="skill">
+            <h3>Cara kerja</h3>
+            <p>Kerja tim, komunikasi, disiplin, teliti, tahan tekanan</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="perjalanan" class="section-compact">
+        <h2>Perjalanan</h2>
+        <p class="sub">Pendidikan dan pengalaman, berurutan.</p>
+
+        <div class="timeline">
+          <article>
+            <time>2019 – 2022</time>
+            <h3>SMK Muhammadiyah 1 Cileungsi</h3>
+            <p>Jurusan Teknik Mesin.</p>
+          </article>
+
+          <article>
+            <time>Sep 2022 – Agu 2026</time>
+            <h3>S1 Teknik Informatika, Universitas Muhammadiyah Prof. Dr. HAMKA</h3>
+            <p>
+              IPK 3,23. Skripsi tentang perancangan chatbot web dengan DialoGPT dan Gemini
+              untuk pelayanan informasi BPTI UHAMKA.
+            </p>
+          </article>
+
+          <article>
+            <time>Jan 2024 – Jul 2026</time>
+            <h3>Staf Operasional, PT Bagi Kopi Indonesia, Seckop Coffee, Mogano Coffee</h3>
+            <p>
+              Bekerja paruh waktu selama kurang lebih dua tahun, mengurus operasional harian
+              dan melayani pelanggan, termasuk saat kondisi ramai.
+            </p>
+          </article>
+
+          <article>
+            <time>Mei 2025 – Agu 2025</time>
+            <h3>PKL di Bagian AI, BPTI UHAMKA</h3>
+            <p>
+              Mengembangkan chatbot layanan informasi kampus dari tahap awal menggunakan
+              DialoGPT dan Gemini API, menguji skenario pertanyaan, serta menyempurnakan jawaban.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="cta" id="kontak">
+      <div class="wrap cta-content">
+        <h2>Mari ngobrol.</h2>
+        <p class="sub cta-copy">
+          Saya sedang mencari kesempatan berkarier di bidang Teknologi Informasi maupun F&amp;B.
+          Kirim pesan kapan saja.
+        </p>
+        <div class="links">
+          <a class="btn" href="https://www.instagram.com/renoprnwo_/" target="_blank" rel="noopener noreferrer">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"></circle>
+            </svg>
+            Instagram
+          </a>
+          <a class="btn primary" href="mailto:renopranowo22@gmail.com">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+            renopranowo22@gmail.com
+          </a>
+          <a class="btn" href="https://wa.me/6281317224580">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3 20l.9-4.7a8.5 8.5 0 1 1 16.6-3.7Z"></path>
+              <path d="M8.8 8.1c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4 0 .6l-.5.6c-.2.2-.2.4 0 .6.4.7 1.1 1.4 1.8 1.8.2.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.7.8c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.5-.5.5-1.2.7-2 .5-1.1-.2-2.4-.9-3.7-2.1-1.1-1-2-2.4-2.2-3.5-.2-.9.1-1.6.5-2.1Z"></path>
+            </svg>
+            WhatsApp 0813-1722-4580
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="wrap">© 2026 Reno Dwi Pranowo</div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
