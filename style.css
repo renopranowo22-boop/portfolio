@@ -679,3 +679,44 @@
       .cta-copy {
         margin: 0;
       }
+
+      /* ===== Bukti kerja (foto di tiap item timeline) ===== */
+      .timeline .bukti {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 14px;
+      }
+
+      .timeline .bukti figure {
+        margin: 0;
+        width: 150px;
+        max-width: calc(50% - 6px);
+      }
+
+      .timeline .bukti a {
+        display: block;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--bg-soft);
+        transition: border-color 0.2s ease, transform 0.2s ease;
+      }
+
+      .timeline .bukti a:hover {
+        border-color: var(--blue);
+        transform: translateY(-2px);
+      }
+
+      .timeline .bukti img {
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+      }
+
+      .timeline .bukti figcaption {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.4;
+      }
